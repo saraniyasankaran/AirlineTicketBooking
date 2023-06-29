@@ -1,0 +1,32 @@
+body{
+    background-image: url("images/flight.jpg");
+    background-size:cover;
+}
+.navbar {
+  position:fixed;
+    top:0;
+    left:0;
+  width:1370px;
+  height:60px ;
+  background-color:#4F4F4F;
+}
+
+.navbar a {
+  float: left;
+  padding: 17px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.head{
+    font-size:60px ;
+    color:white;
+  
+}
+

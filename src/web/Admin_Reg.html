@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flight Availability</title>
+        <link rel="stylesheet" href="Admin_reg.css"/>
+        <link rel="icon" href="images/icon.jpg">
+    </head>
+    <body>
+        <div class="navbar">
+            <a class="active" href="index.html">Airline Booking</a> 
+            <a href="index.html">Home</a> 
+            <a href="Flight.jsp">Flight</a> 
+            <a href="Login.html">Login</a>
+        </div>
+        <br>
+        <div class="title"><h1>Registration Form</h1></div>
+        <div class="container">
+            <div class="left"></div>
+            <div class="form_box">
+            <form action="AdminRegServlet">
+                <p>Flight&nbsp;no.</p><input type="text" name="flight_num">
+                <p>Flight&nbsp;name</p><input type="text" name="flight_name">
+                <p>From&nbsp;City</p><input type="text" name="from">
+                <p>To&nbsp;City</p><input type="text" name="to">
+                <p>Date</p><input type="date" name="date">
+                <p>Time</p><input type="text" name="time">
+                <p>Airport&nbsp;name</p><input type="text" name="air_name">
+                <p>Ticket&nbsp;price</p><input type="text" name="price">
+                <p>Description</p><input type="text" name="desc">
+                <input type="submit" name="" value="Register">
+            </form>
+            </div>
+            
+        </div>
+    </body>
+</html>

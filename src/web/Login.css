@@ -1,0 +1,110 @@
+body{
+    background-image: url("images/left_flight_blur.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    padding:50px 0 20px;
+}
+.title h1{
+    margin:0;
+    padding:0;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background: #fff;
+    margin:0 auto;
+    border:0px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,1);
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url("images/left_flight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .right{
+    float: right;
+    width: 50%;
+    height: 500px;
+}
+.form_box{
+    width:100px;
+    padding:80px 80px;
+    box-sizing: border-box;
+    height: 400px;
+    backface-visibility: #fff;
+}
+.form_box p{
+    margin:0;
+    padding:0;
+    font-weight: bold;
+    color: #0000FF;   
+}
+.form_box input{
+    margin-bottom: 20px;
+}
+.form_box input[type="text"],
+.form_box input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #0000FF;
+    outline: none;
+    height: 40px;   
+}
+.form_box input[type="text"]:focus,
+.form_box input[type="password"]:focus{
+    
+    border-bottom: 2px solid #89CFF0;
+   
+}
+.form_box input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    background: #0000FF;
+    cursor: pointer;
+}
+.form_box input[type="submit"]:hover{
+    background:#89CFF0;
+}
+
+.form_box a{
+    color:#0000FF;
+    font-size: 11px;
+    font-weight: bold;
+}
+.form_box a:hover{
+    color: #89CFF0;
+}
+
+.navbar {
+  position:fixed;
+    top:0;
+    left:0;
+  width:1370px;
+  height:60px ;
+  background-color:#4F4F4F;
+}
+
+
+.navbar a {
+  float: left;
+  padding: 17px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
